@@ -12,7 +12,7 @@ import { SkeletonCard } from '@/components/dashboard/shared';
 import { RefreshCw } from 'lucide-react';
 
 // Replace with your actual store_id from seed output
-const DEFAULT_STORE_ID = '89bad71c-a781-4b34-b828-716bd2c4dcfd';
+const DEFAULT_STORE_ID = process.env.NEXT_PUBLIC_DEFAULT_STORE_ID ?? '';
 
 function DashboardContent() {
   const searchParams = useSearchParams();
