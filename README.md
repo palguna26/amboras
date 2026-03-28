@@ -67,7 +67,7 @@ This inserts 2 stores and ~50,000 events spread across the last 30 days with rea
 After seeding, copy a store ID from the `stores` table in Supabase and paste it into:
 
 ```
-frontend/src/app/dashboard/page.tsx
+.env : NEXT_PUBLIC_DEFAULT_STORE_ID
 ```
 
 ### 6. Start the App
